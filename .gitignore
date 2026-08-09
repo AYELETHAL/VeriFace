@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# Models and pickles
+*.pth
+*.pt
+*.pkl
+*.ckpt
+*.h5
+
+# Logs and outputs
+*.csv
+output_faces_*/
+grad_cam_*/
+
+# Mask and dataset directories
+eye_masks/
+eyebrow_masks/
+lip_masks/
+nose_masks/
+No_Manipulation/
+
+# IDE/editor
+.vscode/
+.DS_Store
+
+# Other
+*.pyc
+
